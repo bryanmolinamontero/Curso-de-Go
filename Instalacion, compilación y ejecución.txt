@@ -1,0 +1,40 @@
+Ir al sitio web oficial de GO.
+
+https://golang.org/dl/
+
+y descargar depende del sistema operativo.
+
+
+Nota: Como "go" es un término genérico en el internet, se recomienda buscar con la palabra goland
+que es un convención en la comunidad que representa pues GO. 
+
+
+
+
+------------------
+COMPILACION DE NUESTROS ARCHIVOS .GO
+
+Cuando ya tengamos nuestros scripts nombrados con extensión .go lo debemos compilar con el comando
+
+go build "nombre_de_mi_script.go"
+
+Esto lo que me hace es crear un "ejecutable" del script
+
+---------------------
+
+EJECUCION 
+
+Cuando ya tengamos nuestros ejecutables,
+en windows crea un .exe, le podemos dar doble clic
+o ejecutarlo via consola simplemente con el nombre del .exe
+
+en Linux o Mac mediante la consola
+
+./nombre_de_mi_ejecutable
+
+
+--------------------
+
+NOTA: si quiero ejecutar mi script sin necesidad de hacer un "ejecutable" entonces hago:
+
+go run "nombre_de_mi_script.go"
